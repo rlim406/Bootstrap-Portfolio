@@ -1,0 +1,75 @@
+body {
+  background-color: #eeeeee;
+  background-image: url('regal.png');
+}
+
+.container {
+  height: 50px;
+}
+
+.containerp {
+  background-color: #ffffff;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: 'Belleza', sans-serif;
+}
+
+#upperline {
+  height: 2px;
+  color: #4aaaa5;
+  background-color: #4aaaa5;
+}
+
+.navbar-name {
+  font-family: 'Courgette', cursive;
+  font-size: 35px;
+  color: white;
+  padding: 7px;
+  width: 225px;
+  background-color: #53d2d6;
+}
+
+.navbar-nav {
+  margin-left: 475px;
+  font-family: 'Courgette', cursive;
+  font-size: 18px;
+}
+
+/* portfolio page */
+
+.card-body {
+  background-color: #5bc7ca;
+  color: #ffffff;
+}
+
+.card-text {
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+}
+.abstract,
+.travel,
+.food,
+.nature,
+.music {
+  margin: 15px;
+}
+
+.row1 {
+  padding-top: 25px;
+}
+
+/* Contact page */
+
+.containerf {
+  margin: 25px;
+}
+
+.form-control {
+  background-color: #f4f5f7de;
+}
