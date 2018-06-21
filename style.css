@@ -3,11 +3,11 @@ body {
   background-image: url('regal.png');
 }
 
-.container {
+#ch {
   height: 50px;
 }
 
-.containerp {
+#containerp {
   background-color: #ffffff;
   margin-top: 25px;
   margin-left: auto;
@@ -30,6 +30,7 @@ h2 {
   font-size: 35px;
   color: white;
   padding: 7px;
+  margin-left: -10px;
   width: 225px;
   background-color: #53d2d6;
 }
@@ -38,6 +39,18 @@ h2 {
   margin-left: 475px;
   font-family: 'Courgette', cursive;
   font-size: 18px;
+}
+/* about page */
+#profile {
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* portfolio page */
@@ -72,4 +85,16 @@ h2 {
 
 .form-control {
   background-color: #f4f5f7de;
+}
+
+.row2 {
+  background-color: #666666;
+  text-align: center;
+}
+
+#lowerline {
+  height: 5px;
+  color: #4aaaa5;
+  background-color: #4aaaa5;
+  margin-top: 25px;
 }
