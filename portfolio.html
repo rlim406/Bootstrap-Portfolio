@@ -11,6 +11,9 @@
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Belleza" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -33,93 +36,110 @@
     </div>
   </nav>
 
-  <div id="containerp" class="container">
-
-    <div class="row1">
-      <div class="col-md-12">
-        <h2>Portfolio</h2>
-        <hr id="upperline"></hr>
+  <div id="background-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/cherryblossoms.jpg" alt="First slide">
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <div class="abstract" style="width: 300px;">
-          <img class="card-img-top" src="images/Crystal_Ball.jpg" width="250px" height="250px" alt="crystalBall">
-          <div class="card-body">
-            <p class="card-text">
-              <a id="link" href="https://rlim406.github.io/Psychic-Game/index.html" target="_blank">PSYCHIC GAME</a>
-            </p>
-          </div>
-        </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/stringlights.jpg" alt="Second slide">
       </div>
-
-      <div class="col">
-        <div class="travel" style="width: 300px;">
-          <img class="card-img-top" src="images/purple.jpg" width="250px" height="250px" alt="crystal">
-          <div class="card-body">
-            <p class="card-text">
-              <a id="link" href="https://rlim406.github.io/Crystal-Collector-Game/index.html" target="_blank">CRYSTAL COLLECTOR</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <div class="food" style="width: 300px;">
-          <img class="card-img-top" src="images/Hogwarts.jpg" width="250px" height="250px" alt="hogwarts">
-          <div class="card-body">
-            <p class="card-text">
-              <a id="link" href="https://rlim406.github.io/TriviaGame/" target="_blank">HARRY POTTER TRIVIA</a>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="nature" style="width: 300px;">
-          <img class="card-img-top" src="images/clapboard.jpg" width="250px" height="250px" alt="clapboard">
-          <div class="card-body">
-            <p class="card-text">
-              <a id="link" href="https://rlim406.github.io/giphy/" target="_blank">MOVIE GIFS</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <div class="music" style="width: 300px;">
-          <img class="card-img-top" src="images/train.jpg" width="250px" height="250px" alt="train">
-          <div class="card-body">
-            <p class="card-text">
-              <a id="link" href="https://rlim406.github.io/Train-Scheduler/index.html" target="_blank">TRAIN SCHEDULER</a>
-            </p>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col">
-        <div class="project" style="width: 300px;">
-          <img class="card-img-top" src="images/cobblestone.jpg" width="250px" height="250px" alt="train">
-          <div class="card-body">
-            <p class="card-text">
-              <a id="link" href="https://tr1n1n1k.github.io/TravelBug/index.html" target="_blank">TRAVEL BUG</a>
-            </p>
-          </div>
-        </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/succulents.jpg" alt="Third slide">
       </div>
     </div>
   </div>
 
-  <div class="row2">
-    <div class="col-md-12">
-      <hr id="lowerline"></hr>
-      Copyright&copy;
+  <div id="content-wrapper">
+    <div id="containerp" class="container">
+
+      <div class="row1">
+        <div class="col-md-12">
+          <h2>Portfolio</h2>
+          <hr id="upperline"></hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="abstract" style="width: 300px;">
+            <img class="card-img-top" src="images/Crystal_Ball.jpg" width="250px" height="250px" alt="crystalBall">
+            <div class="card-body">
+              <p class="card-text">
+                <a id="link" href="https://rlim406.github.io/Psychic-Game/index.html" target="_blank">PSYCHIC GAME</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="travel" style="width: 300px;">
+            <img class="card-img-top" src="images/purple.jpg" width="250px" height="250px" alt="crystal">
+            <div class="card-body">
+              <p class="card-text">
+                <a id="link" href="https://rlim406.github.io/Crystal-Collector-Game/index.html" target="_blank">CRYSTAL COLLECTOR</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="food" style="width: 300px;">
+            <img class="card-img-top" src="images/Hogwarts.jpg" width="250px" height="250px" alt="hogwarts">
+            <div class="card-body">
+              <p class="card-text">
+                <a id="link" href="https://rlim406.github.io/TriviaGame/" target="_blank">HARRY POTTER TRIVIA</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="nature" style="width: 300px;">
+            <img class="card-img-top" src="images/clapboard.jpg" width="250px" height="250px" alt="clapboard">
+            <div class="card-body">
+              <p class="card-text">
+                <a id="link" href="https://rlim406.github.io/giphy/" target="_blank">MOVIE GIFS</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="music" style="width: 300px;">
+            <img class="card-img-top" src="images/train.jpg" width="250px" height="250px" alt="train">
+            <div class="card-body">
+              <p class="card-text">
+                <a id="link" href="https://rlim406.github.io/Train-Scheduler/index.html" target="_blank">TRAIN SCHEDULER</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="project" style="width: 300px;">
+            <img class="card-img-top" src="images/cobblestone.jpg" width="250px" height="250px" alt="train">
+            <div class="card-body">
+              <p class="card-text">
+                <a id="link" href="https://tr1n1n1k.github.io/TravelBug/index.html" target="_blank">TRAVEL BUG</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="bottom" class="row2">
+      <div class="col-md-12">
+        <hr id="lowerline"></hr>
+        Copyright&copy;
+      </div>
     </div>
   </div>
 </body>

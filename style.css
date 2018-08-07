@@ -8,7 +8,6 @@ body {
 }
 
 #containerp {
-  background-color: #ffffff;
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
@@ -77,6 +76,43 @@ p {
   padding-top: 25px;
 }
 
+html,body {
+height:100%;
+width:100%;
+position:relative;
+}
+
+#background-carousel{
+position: fixed;
+width:100%;
+height:100%;
+z-index:-1;
+}
+
+.carousel,
+.carousel-inner {
+width:100%;
+height:100%;
+z-index:0;
+overflow:hidden;
+}
+
+.carousel-item {
+width:100%;
+height:100%;
+background-position:center center;
+background-size:cover;
+z-index:0;
+}
+
+#content-wrapper {
+position:absolute;
+z-index:1;
+min-width:100%;
+min-height:100%;
+}
+
+
 /* Contact page */
 
 .containerf {
@@ -102,3 +138,6 @@ p {
 #link {
   color: white;
 }
+
+
+
