@@ -54,6 +54,11 @@ p {
 
 /* portfolio page */
 
+#portfolioHeader{
+  color:black;
+  font-weight:500;
+}
+
 .card-body {
   background-color: #5bc7ca;
   color: #ffffff;
@@ -68,7 +73,7 @@ p {
 .travel,
 .food,
 .nature,
-.music, .project {
+.music, .project{
   margin: 15px;
 }
 
@@ -83,7 +88,7 @@ position:relative;
 }
 
 #background-carousel{
-position: fixed;
+position: absolute;
 width:100%;
 height:100%;
 z-index:-1;
@@ -112,6 +117,54 @@ min-width:100%;
 min-height:100%;
 }
 
+.project:hover .overlay{
+  opacity: 1;
+}
+
+.abstract:hover .overlay{
+  opacity: 1;
+}
+
+.travel:hover .overlay{
+  opacity: 1;
+}
+
+.food:hover .overlay{
+  opacity: 1;
+}
+
+.nature:hover .overlay{
+  opacity: 1;
+}
+
+.music:hover .overlay{
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 30px;
+  right: 0;
+  height: 260px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:lightcoral;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 /* Contact page */
 
