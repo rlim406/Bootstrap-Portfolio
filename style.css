@@ -73,7 +73,7 @@ p {
 .travel,
 .food,
 .nature,
-.music, .project, .liri, .bags{
+.music, .project, .liri, .bags, .bff{
   margin: 15px;
 }
 
@@ -146,6 +146,10 @@ min-height:100%;
 }
 
 .bags:hover .overlay{
+  opacity:1;
+}
+
+.bff:hover .overlay{
   opacity:1;
 }
 
