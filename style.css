@@ -73,7 +73,7 @@ p {
 .travel,
 .food,
 .nature,
-.music, .project, .liri, .bags, .bff, .burger{
+.music, .project, .liri, .bags, .bff, .burger,.newspaper{
   margin: 15px;
 }
 
@@ -154,6 +154,10 @@ min-height:100%;
 }
 
 .burger:hover .overlay{
+  opacity:1;
+}
+
+.newspaper:hover .overlay{
   opacity:1;
 }
 
